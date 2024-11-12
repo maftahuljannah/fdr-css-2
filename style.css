@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#icon{
+    margin-top: 50px;
+}
+#icon .container {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px; 
+    justify-content: space-around; 
+}
+
+#icon .container div {
+    flex: 1 1 18%;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 8px; 
+    transition: box-shadow 0.3s ease; 
+}
+#icon .container div:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+}
+
+#icon img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; 
+}
+
+#icon h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333; 
+}
+
+
+#image{
+    margin-top: 90px;
+}
+
+#image .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    gap: 20px; /* Adds space between image sections */
+}
+
+#image .container div {
+    flex: 1 1 23%; 
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+}
+
+#image .container div:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+}
+
+#image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#image p {
+    font-size: 16px;
+}
+
+#image p span {
+    text-decoration: line-through;
+    color: gray;
+}
+#image .container h2{
+    background-color: rgb(112, 5, 112);
+    width: 50%;
+    font-size: 18px;
+    padding: 8px 0;
+    color: #fff;
+    border-radius: 0 50px 50px 0;
+}
+#image .container h2:hover{
+    border-radius:50px 0 0 50px ;
+    background-color: #fff200;
+    color: #000;
+}
